@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi_test\\Azure_CICD_WebApi_test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\Azure_CICD_WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\Azure_CICD_WebApi.csproj",
+        "projectName": "Azure_CICD_WebApi",
+        "projectPath": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\Azure_CICD_WebApi.csproj",
+        "packagesPath": "C:\\Users\\sunil gori\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sunil gori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\sunil gori\\AppData\\Roaming\\NuGet\\7b1679f4-5314-37dc-a0a6-01bb766f1995": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi_test\\Azure_CICD_WebApi_test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi_test\\Azure_CICD_WebApi_test.csproj",
+        "projectName": "Azure_CICD_WebApi_test",
+        "projectPath": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi_test\\Azure_CICD_WebApi_test.csproj",
+        "packagesPath": "C:\\Users\\sunil gori\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi_test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sunil gori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\sunil gori\\AppData\\Roaming\\NuGet\\7b1679f4-5314-37dc-a0a6-01bb766f1995": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\Azure_CICD_WebApi.csproj": {
+                "projectPath": "C:\\Users\\sunil gori\\Desktop\\cognizant\\cloud handson\\Azure_CICD_WebApi\\Azure_CICD_WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
