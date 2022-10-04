@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["Azure_CICD_WebApi.csproj", "."]
-RUN dotnet restore "./Azure_CICD_WebApi.csproj"
+COPY ["Azure_CICD_WebApi/Azure_CICD_WebApi.csproj", "."]
+RUN dotnet restore "./Azure_CICD_WebApi/Azure_CICD_WebApi.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "Azure_CICD_WebApi.csproj" -c Release -o /app/build
+RUN dotnet build "Azure_CICD_WebApi/Azure_CICD_WebApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Azure_CICD_WebApi.csproj" -c Release -o /app/publish
+RUN dotnet publish "Azure_CICD_WebApi/Azure_CICD_WebApi.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Azure_CICD_WebApi.dll"]
+ENTRYPOINT ["dotnet", "Azure_CICD_WebApi/Azure_CICD_WebApi.dll"]
